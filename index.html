@@ -3,178 +3,288 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV de Haitam EL-KHAMALI</title>
+    <title>Haitam EL-KHAMALI</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Haitam EL-KHAMALI</h1>
+        <nav class="sidebar">
+            <div class="profile">
+                <h1>Haitam EL-KHAMALI</h1>
+                <p class="title">Étudiant en Génie Industriel</p>
+            </div>
+            
+            <ul class="menu">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#education">Éducation</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#honors">Honneurs</a></li>
+                <li><a href="#skills">Compétences</a></li>
+            </ul>
+            
+            <div class="social-links">
+                <a href="mailto:elkhamalihaitam@gmail.com" aria-label="Email"><i class="far fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/haitam-elkhamali/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/elkhaitam" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.datacamp.com/portfolio/elkhamalihaitam" target="_blank" aria-label="DataCamp"><i class="fas fa-chart-bar"></i></a>
+            </div>
+            
             <div class="contact-info">
                 <p><i class="fas fa-map-marker-alt"></i> Rabat, Casablanca</p>
-                <p><i class="far fa-envelope"></i> <a href="mailto:elkhamalihaitam@gmail.com">elkhamalihaitam@gmail.com</a></p>
-                <p><i class="fas fa-phone"></i> <a href="tel:+212762974511">+212 762-974511</a></p>
-                <p><i class="fas fa-link"></i> <a href="https://www.datacamp.com/portfolio/elkhamalihaitam" target="_blank">Mon portfolio DataCamp <i class="fas fa-external-link-alt"></i></a></p>
-                <p><i class="fab fa-linkedin-in"></i> <a href="https://www.linkedin.com/in/haitam-elkhamali/" target="_blank">Haitam EL-KHAMALI <i class="fas fa-external-link-alt"></i></a></p>
-                <p><i class="fab fa-github"></i> <a href="https://github.com/elkhaitam" target="_blank">elkhaitam <i class="fas fa-external-link-alt"></i></a></p>
+                <p><i class="fas fa-phone"></i> +212 762-974511</p>
             </div>
-        </header>
+        </nav>
 
-        <section id="description">
-            <h2>Description</h2>
-            <p>Étudiant en première année de Génie Industriel à l'École Mohammadia d'Ingénieurs, actuellement à la recherche d'un <strong>STAGE D'INITIATION de courte durée</strong> afin d'acquérir une première expérience professionelle.</p>
-        </section>
+        <main class="content">
+            <section id="about">
+                <h2>À propos</h2>
+                <p>Étudiant en première année de Génie Industriel à l'École Mohammadia d'Ingénieurs, actuellement à la recherche d'un <strong>STAGE D'INITIATION de courte durée</strong> afin d'acquérir une première expérience professionelle.</p>
+            </section>
 
-        <section id="education">
-            <h2>Éducation</h2>
-            
-            <div class="entry">
-                <div class="entry-header">
-                    <div class="entry-title">
+            <section id="education">
+                <h2>Éducation</h2>
+                
+                <div class="item">
+                    <div class="date">Août 2024 – Juin 2027</div>
+                    <div class="details">
                         <h3>École Mohammadia d'Ingénieurs</h3>
-                        <p>Ingénieur d'État (équivalent à un Master en Ingénierie M.Eng)</p>
+                        <p class="subtitle">Ingénieur d'État (équivalent à un Master en Ingénierie M.Eng)</p>
+                        <ul>
+                            <li><strong>Grade :</strong> En cours.</li>
+                            <li><strong>Cours :</strong> Gestion de la chaîne d'approvisionnement, Science des données, Gestion Lean, Communication.</li>
+                            <li><strong>Projets :</strong> Étude statistique de l'utilisation des réseaux sociaux au sein des élèves ingénieurs de l'EMI (<a href="#">Projet</a>). Conception d'un produit basée sur les principes du Lean (<a href="#">Projet</a>). Prédiction de l'effectif des élèves dans l'ensemble des centres de classes préparatoires au Maroc (<a href="#">Projet</a>).</li>
+                        </ul>
                     </div>
-                    <div class="entry-date">Août 2024 – Juin 2027</div>
                 </div>
-                <ul class="highlights">
-                    <li><strong>Grade :</strong> En cours.</li>
-                    <li><strong>Cours :</strong> Gestion de la chaîne d'approvisionnement, Science des données, Gestion Lean, Communication.</li>
-                    <li><strong>Projets :</strong> Étude statistique de l'utilisation des réseaux sociaux au sein des élèves ingénieurs de l'EMI (<a href="#" target="_blank">Projet <i class="fas fa-external-link-alt"></i></a>). Conception d'un produit basée sur les principes du Lean (<a href="#" target="_blank">Projet <i class="fas fa-external-link-alt"></i></a>). Prédiction de l'effectif des élèves dans l'ensemble des centres de classes préparatoires au Maroc (<a href="#" target="_blank">Projet <i class="fas fa-external-link-alt"></i></a>).</li>
-                </ul>
-            </div>
 
-            <div class="entry">
-                <div class="entry-header">
-                    <div class="entry-title">
+                <div class="item">
+                    <div class="date">Sept 2022 – Juin 2024</div>
+                    <div class="details">
                         <h3>CPGE Tétouan</h3>
-                        <p>Technologie et Sciences Industrielles (TSI)</p>
+                        <p class="subtitle">Technologie et Sciences Industrielles (TSI)</p>
+                        <ul>
+                            <li><strong>Grade :</strong> Classé 55e sur 797, un score supérieur à environ <strong>93,09 %</strong> des candidats. (<a href="https://www.albawaba.ma/wp-content/uploads/2024/07/res-cnc-tsi.pdf" target="_blank">Classement CNC</a>)</li>
+                            <li><strong>Cours :</strong> Mathématiques, Physique, Électronique, Génie mécanique, Français, Anglais.</li>
+                            <li><strong>Projets :</strong> Étude et amélioration d'un distributeur de quilles de bowling (TIPE) (<a href="https://1drv.ms/f/c/4c92874b8fad7ae6/EjmU5zg44_5Eq5MHV6aagggB6RwJ1bicupzm_s7cVqX-VQ" target="_blank">Projet</a>).</li>
+                        </ul>
                     </div>
-                    <div class="entry-date">Sept 2022 – Juin 2024</div>
                 </div>
-                <ul class="highlights">
-                    <li><strong>Grade :</strong> Classé 55e sur 797, un score supérieur à environ <strong>93,09 %</strong> des candidats. (<a href="https://www.albawaba.ma/wp-content/uploads/2024/07/res-cnc-tsi.pdf" target="_blank">Classement CNC <i class="fas fa-external-link-alt"></i></a>)</li>
-                    <li><strong>Cours :</strong> Mathématiques, Physique, Électronique, Génie mécanique, Français, Anglais.</li>
-                    <li><strong>Projets :</strong> Étude et amélioration d'un distributeur de quilles de bowling (TIPE) (<a href="https://1drv.ms/f/c/4c92874b8fad7ae6/EjmU5zg44_5Eq5MHV6aagggB6RwJ1bicupzm_s7cVqX-VQ" target="_blank">Projet <i class="fas fa-external-link-alt"></i></a>).</li>
-                </ul>
-            </div>
 
-            <div class="entry">
-                <div class="entry-header">
-                    <div class="entry-title">
+                <div class="item">
+                    <div class="date">Sept 2020 – Juil 2022</div>
+                    <div class="details">
                         <h3>Lycée Imam Al-Gazaly</h3>
-                        <p>Baccalauréat en Sciences et Technologies Mécaniques - Option Français</p>
+                        <p class="subtitle">Baccalauréat en Sciences et Technologies Mécaniques - Option Français</p>
+                        <ul>
+                            <li><strong>Grade :</strong> Avec <strong>Mention TRÈS BIEN</strong>. (<a href="https://1drv.ms/b/c/4c92874b8fad7ae6/EY5L9lJFVpxNo9yNPnSkqZMBIByTDG9lcj3PlpL3ZBKGjA?e=gNiRpx" target="_blank">Certificat</a>). Classé premier de ma région à l'examen du baccalauréat (filière STM). (<a href="https://1drv.ms/b/c/4c92874b8fad7ae6/EbAKU1kNQfdAuR71jO6EnZwBoeyTFT-6_PuL-2TaoRRygw?e=GZ1Avy" target="_blank">Certificat</a>)</li>
+                        </ul>
                     </div>
-                    <div class="entry-date">Sept 2020 – Juil 2022</div>
                 </div>
-                <ul class="highlights">
-                    <li><strong>Grade :</strong> Avec <strong>Mention TRÈS BIEN</strong>. (<a href="https://1drv.ms/b/c/4c92874b8fad7ae6/EY5L9lJFVpxNo9yNPnSkqZMBIByTDG9lcj3PlpL3ZBKGjA?e=gNiRpx" target="_blank">Certificat <i class="fas fa-external-link-alt"></i></a>). Classé premier de ma région à l'examen du baccalauréat (filière STM). (<a href="https://1drv.ms/b/c/4c92874b8fad7ae6/EbAKU1kNQfdAuR71jO6EnZwBoeyTFT-6_PuL-2TaoRRygw?e=GZ1Avy" target="_blank">Certificat <i class="fas fa-external-link-alt"></i></a>)</li>
-                </ul>
-            </div>
-        </section>
+            </section>
 
-        <section id="experience">
-            <h2>Expérience</h2>
-            
-            <div class="entry">
-                <div class="entry-header">
-                    <div class="entry-title">
+            <section id="experience">
+                <h2>Expérience</h2>
+                
+                <div class="item">
+                    <div class="date">Oct 2024 – Aujourd'hui</div>
+                    <div class="details">
                         <h3>Enactus EMI</h3>
-                        <p>Associé Sponsoring & Projet, Tadefi</p>
-                    </div>
-                    <div class="entry-date">
-                        <p>Rabat Agdal, Maroc</p>
-                        <p>Oct 2024 – Aujourd'hui</p>
+                        <p class="subtitle">Associé Sponsoring & Projet, Tadefi</p>
+                        <p class="location">Rabat Agdal, Maroc</p>
+                        <ul>
+                            <li>Élaboration de stratégies de sponsoring et obtention de partenariats pour financer les projets d'Enactus EMI, en préparant activement, tout au long de l'année à la <strong>Enactus World Cup 2025</strong>.</li>
+                        </ul>
                     </div>
                 </div>
-                <ul class="highlights">
-                    <li>Élaboration de stratégies de sponsoring et obtention de partenariats pour financer les projets d'Enactus EMI, en préparant activement, tout au long de l'année à la <strong>Enactus World Cup 2025</strong>.</li>
-                </ul>
-            </div>
 
-            <div class="entry">
-                <div class="entry-header">
-                    <div class="entry-title">
+                <div class="item">
+                    <div class="date">Nov 2024 – Aujourd'hui</div>
+                    <div class="details">
                         <h3>Club Industriel de l'EMI</h3>
-                        <p>Associé Projet</p>
-                    </div>
-                    <div class="entry-date">
-                        <p>Rabat Agdal, Maroc</p>
-                        <p>Nov 2024 – Aujourd'hui</p>
+                        <p class="subtitle">Associé Projet</p>
+                        <p class="location">Rabat Agdal, Maroc</p>
+                        <ul>
+                            <li>Travail sur des projets liés au domaine du génie industriel et organisation de l'événement "<strong>12ème Journée Industrielle</strong>" à l'École Mohammadia d'Ingénieurs.</li>
+                        </ul>
                     </div>
                 </div>
-                <ul class="highlights">
-                    <li>Travail sur des projets liés au domaine du génie industriel et organisation de l'événement "<strong>12ème Journée Industrielle</strong>" à l'École Mohammadia d'Ingénieurs.</li>
-                </ul>
-            </div>
-        </section>
+            </section>
 
-        <section id="projects">
-            <h2>Projets</h2>
-            
-            <div class="entry">
-                <div class="entry-header">
-                    <div class="entry-title">
+            <section id="projects">
+                <h2>Projets</h2>
+                
+                <div class="item">
+                    <div class="date">Mai 2025</div>
+                    <div class="details">
                         <h3>Application of operations research (OR) in supply chain logistics</h3>
-                        <p>Optimized chocolate distribution network across Morocco.</p>
-                    </div>
-                    <div class="entry-date">
-                        <p><a href="https://github.com/elkhaitam" target="_blank">Projet <i class="fas fa-external-link-alt"></i></a></p>
-                        <p>Mai 2025</p>
+                        <p class="subtitle">Optimized chocolate distribution network across Morocco</p>
+                        <p><a href="https://github.com/elkhaitam" target="_blank">Voir le projet</a></p>
+                        <ul>
+                            <li>Optimisation d'un réseau logistique pour la distribution de chocolat dans le nord du Maroc à l'aide de la recherche opérationnelle et de Python.</li>
+                        </ul>
                     </div>
                 </div>
-                <ul class="highlights">
-                    <li>Optimisation d'un réseau logistique pour la distribution de chocolat dans le nord du Maroc à l'aide de la recherche opérationnelle et de Python.</li>
-                </ul>
-            </div>
-        </section>
+            </section>
 
-        <section id="certifications">
-            <h2>Licences & Certifications</h2>
-            <p><strong>Classé 1er sur 41 candidats au niveau national au concours CGST en Génie Mécanique et lauréat de la bourse d'EXCELLENCE offerte par l'Académie Hassan II des Sciences et Techniques.</strong> 
-                (<a href="https://1drv.ms/b/c/4c92874b8fad7ae6/EYLFvJrcp7pCrCCscPXQCl4BtpU4Ba2kqYMLmUz502wZlQ?e=3ffBBd" target="_blank">Certificat d'Excellence <i class="fas fa-external-link-alt"></i></a>), 
-                (<a href="https://1drv.ms/b/c/4c92874b8fad7ae6/EaZBPVqrj11EjeAjv9k0A30BvgzjB7bfgihXVRFsC4dD-g?e=F5y5Fj" target="_blank">Bourse attribuée <i class="fas fa-external-link-alt"></i></a>), 
-                <em>Ministère de l'Enseignement Supérieur et de la Recherche Scientifique</em>, <em>Juil 2022</em>. 
-                <strong>DATA ANALYST ASSOCIATE</strong> 
-                (<a href="https://www.datacamp.com/certificate/DAA0010051762405" target="_blank">Certificat <i class="fas fa-external-link-alt"></i></a>), 
-                <em>DataCamp</em>, <em>Oct 2024</em>. 
-                <strong>Management Consulting</strong> 
-                (<a href="https://www.coursera.org/account/accomplishments/specialization/F9DI6B4QLCLU" target="_blank">Certificat <i class="fas fa-external-link-alt"></i></a>), 
-                <em>Emory University</em>, <em>Mars 2024</em>. 
-                <strong>McKinsey Forward Program</strong>, 
-                <em>McKinsey & Company</em>, <em>Avr 2024</em>, 
-                <strong>Supply Chain Management</strong> 
-                (<a href="#" target="_blank">Certificat <i class="fas fa-external-link-alt"></i></a>), 
-                <em>Rutgers University</em>, <em>Juin 2025</em>.
-            </p>
-        </section>
+            <section id="certifications">
+                <h2>Licences & Certifications</h2>
+                <div class="cert-grid">
+                    <div class="cert-item">
+                        <h3>Bourse d'EXCELLENCE</h3>
+                        <p class="subtitle">Académie Hassan II des Sciences et Techniques</p>
+                        <p class="date">Juil 2022</p>
+                        <p>Classé 1er sur 41 candidats au niveau national au concours CGST en Génie Mécanique. 
+                           <a href="https://1drv.ms/b/c/4c92874b8fad7ae6/EYLFvJrcp7pCrCCscPXQCl4BtpU4Ba2kqYMLmUz502wZlQ?e=3ffBBd" target="_blank">Certificat d'Excellence</a> |
+                           <a href="https://1drv.ms/b/c/4c92874b8fad7ae6/EaZBPVqrj11EjeAjv9k0A30BvgzjB7bfgihXVRFsC4dD-g?e=F5y5Fj" target="_blank">Bourse attribuée</a>
+                        </p>
+                    </div>
+                    
+                    <div class="cert-item">
+                        <h3>DATA ANALYST ASSOCIATE</h3>
+                        <p class="subtitle">DataCamp</p>
+                        <p class="date">Oct 2024</p>
+                        <p><a href="https://www.datacamp.com/certificate/DAA0010051762405" target="_blank">Voir le certificat</a></p>
+                    </div>
+                    
+                    <div class="cert-item">
+                        <h3>Management Consulting</h3>
+                        <p class="subtitle">Emory University</p>
+                        <p class="date">Mars 2024</p>
+                        <p><a href="https://www.coursera.org/account/accomplishments/specialization/F9DI6B4QLCLU" target="_blank">Voir le certificat</a></p>
+                    </div>
+                    
+                    <div class="cert-item">
+                        <h3>McKinsey Forward Program</h3>
+                        <p class="subtitle">McKinsey & Company</p>
+                        <p class="date">Avr 2024</p>
+                    </div>
+                    
+                    <div class="cert-item">
+                        <h3>Supply Chain Management</h3>
+                        <p class="subtitle">Rutgers University</p>
+                        <p class="date">Juin 2025</p>
+                        <p><a href="#">Voir le certificat</a></p>
+                    </div>
+                </div>
+            </section>
 
-        <section id="honors">
-            <h2>Honneurs & Récompenses</h2>
-            <div class="entry">
-                <div class="entry-header">
-                    <div class="entry-title">
+            <section id="honors">
+                <h2>Honneurs & Récompenses</h2>
+                <div class="item">
+                    <div class="details">
                         <h3>Réception de la Bourse d'Excellence</h3>
-                    </div>
-                    <div class="entry-date">
-                        <p><a href="http://www.academie.hassan2.sciences.ma/fr/activites/concours.php" target="_blank">Bourse d'Excellence <i class="fas fa-external-link-alt"></i></a></p>
+                        <p>Récompensé par la prestigieuse Bourse d'Excellence après avoir obtenu la 1ère place au niveau national au concours CGST, avec des félicitations officielles de M. <strong>Moulay Youssef El Azhari</strong> et M. <strong>Omar Fassi Fihri</strong>.</p>
+                        <p><a href="http://www.academie.hassan2.sciences.ma/fr/activites/concours.php" target="_blank">En savoir plus</a></p>
                     </div>
                 </div>
-                <p class="honor-description">Récompensé par la prestigieuse Bourse d'Excellence après avoir obtenu la 1ère place au niveau national au concours CGST, avec des félicitations officielles de M. <strong>Moulay Youssef El Azhari</strong> et M. <strong>Omar Fassi Fihri</strong>.</p>
+            </section>
+
+            <section id="skills">
+                <h2>Compétences</h2>
+                <div class="skills-groups">
+                    <div class="skill-group">
+                        <h3>Techniques</h3>
+                        <ul class="skills-list">
+                            <li>Analyse de données</li>
+                            <li>Excel</li>
+                            <li>Power BI</li>
+                            <li>Outils d'IA</li>
+                            <li>Supply Chain Management</li>
+                            <li>Gestion Lean</li>
+                            <li>Génie mécanique</li>
+                            <li>LaTeX</li>
+                            <li>PowerPoint</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Interpersonnelles</h3>
+                        <ul class="skills-list">
+                            <li>Travail d'équipe</li>
+                            <li>Public Speaking</li>
+                            <li>Leadership</li>
+                            <li>Communication</li>
+                            <li>Relations de sponsoring</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Langues</h3>
+                        <ul class="skills-list">
+                            <li>Français (<em>B2 avancée</em>)</li>
+                            <li>Anglais (<em>courant C1</em>)</li>
+                            <li>Arabe (<em>natif</em>)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <p>© 2025 Haitam EL-KHAMALI. Dernière mise à jour en avril 2025.</p>
+            </footer>
+            
+            <div class="scroll-top">
+                <a href="#about" aria-label="Retour en haut de page"><i class="fas fa-arrow-up"></i></a>
             </div>
-        </section>
-
-        <section id="skills">
-            <h2>Compétences : Techniques, Interpersonnelles et Langues</h2>
-            <p class="skills-list">
-                <strong>Travail d'équipe, Public Speaking, Leadership, Analyse de données, Excel, Power BI, Outils d'IA, Supply Chain Management, PowerPoint, Gestion Lean, Génie mécanique, Relations de sponsoring, LaTeX, Communication, Français (<em>B2 avancée</em>), Anglais (<em>courant C1</em>), Arabe (<em>natif</em>).</strong>
-            </p>
-        </section>
-
-        <footer>
-            <p class="last-updated">Dernière mise à jour en avril 2025</p>
-            <p class="footer-text">Haitam EL-KHAMALI - Page 1 sur 1</p>
-        </footer>
+        </main>
     </div>
+
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.createElement('button');
+            menuToggle.className = 'menu-toggle';
+            menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+            menuToggle.setAttribute('aria-label', 'Toggle menu');
+            
+            document.querySelector('.sidebar').prepend(menuToggle);
+            
+            menuToggle.addEventListener('click', function() {
+                document.querySelector('.sidebar').classList.toggle('show-menu');
+            });
+            
+            // Close menu when clicking on a link
+            document.querySelectorAll('.menu a').forEach(link => {
+                link.addEventListener('click', function() {
+                    document.querySelector('.sidebar').classList.remove('show-menu');
+                });
+            });
+            
+            // Add active class to menu items on scroll
+            const sections = document.querySelectorAll('section');
+            const menuItems = document.querySelectorAll('.menu a');
+            
+            window.addEventListener('scroll', function() {
+                let current = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= sectionTop - 100) {
+                        current = section.getAttribute('id');
+                    }
+                });
+                
+                menuItems.forEach(item => {
+                    item.classList.remove('active');
+                    if (item.getAttribute('href').substring(1) === current) {
+                        item.classList.add('active');
+                    }
+                });
+            });
+            
+            // Show/hide scroll to top button
+            const scrollTopBtn = document.querySelector('.scroll-top');
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    scrollTopBtn.classList.add('show');
+                } else {
+                    scrollTopBtn.classList.remove('show');
+                }
+            });
+        });
+    </script>
 </body>
 </html>

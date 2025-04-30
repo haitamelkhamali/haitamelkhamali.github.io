@@ -298,16 +298,6 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Footer */
-footer {
-    margin-top: 60px;
-    padding: 20px 0;
-    border-top: 1px solid var(--border-color);
-    text-align: center;
-    color: var(--secondary-color);
-    font-size: 0.9rem;
-}
-
 /* Add these new styles for your footer image */
 .footer-image {
     margin-top: 20px;

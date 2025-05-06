@@ -53,5 +53,4 @@ This website is continuously updated as Haitam progresses in his career and acad
 
 ## Website Preview
 
-![Placeholder Image for Website Preview](https://via.placeholder.com/800x400.png?text=Website+Screenshot+Coming+Soon)
-*You can replace this placeholder with an actual screenshot of your website later.*
+![alt text](chrome_lLWohYJt0d.png)

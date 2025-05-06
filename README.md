@@ -4,7 +4,11 @@ This repository contains the source code for Haitam EL-KHAMALI's personal portfo
 
 ## Overview
 
-The website serves as a digital resume and portfolio, showcasing Haitam's academic background, professional experience, projects, certifications, and skills. It is designed to be a comprehensive resource for anyone interested in learning more about Haitam's qualifications and journey as an Industrial Engineering student.
+This project is Haitam EL-KHAMALI's personal portfolio website, meticulously crafted to serve as a dynamic and comprehensive digital resume. Hosted on GitHub Pages, it offers an engaging platform for visitors, including potential employers, collaborators, and mentors, to explore Haitam's academic achievements, professional experiences, noteworthy projects, earned certifications, and diverse skill set. 
+
+The primary goal of this website is to present a clear, well-structured, and aesthetically pleasing overview of Haitam's capabilities and journey as an ambitious Industrial Engineering student. It aims to go beyond a traditional paper resume by providing interactive elements, direct links to relevant work and profiles, and a more in-depth look into his personal and professional development, particularly highlighting experiences like the McKinsey Forward Program.
+
+Designed with user experience in mind, the site features intuitive navigation, responsive design for accessibility across all devices, and customizable viewing options like theme toggling. It is intended to be a living document, regularly updated to reflect Haitam's continuous growth, learning, and accomplishments in his field.
 
 ## Features
 
@@ -46,3 +50,8 @@ The website serves as a digital resume and portfolio, showcasing Haitam's academ
 *   Integration of a contact form.
 
 This website is continuously updated as Haitam progresses in his career and academic pursuits.
+
+## Website Preview
+
+![Placeholder Image for Website Preview](https://via.placeholder.com/800x400.png?text=Website+Screenshot+Coming+Soon)
+*You can replace this placeholder with an actual screenshot of your website later.*
